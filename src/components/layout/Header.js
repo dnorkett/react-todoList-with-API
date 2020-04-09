@@ -5,7 +5,7 @@ function Header() {
     return (
         <header style={headerStyle}> 
             <h1>TodoList - Sample Backend API</h1>
-            <Link style={linkStyle} to="dnorkett.github.io/react-todoList-with-API/">Home</Link> | <Link style={linkStyle} to="dnorkett.github.io/react-todoList-with-API/about">About</Link>
+            <Link style={linkStyle} to="/">Home</Link> | <Link style={linkStyle} to="/about">About</Link>
         </header>
     )
 }
