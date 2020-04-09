@@ -54,13 +54,13 @@ class App extends React.Component {
         <div className="App">
           <div className="container">
             <Header />
-            <Route exact path="/" render={props => (
+            <Route exact path='https://dnorkett.github.io/react-todoList-with-API/' render={props => (
               <React.Fragment>
                 <AddTodo addTodo={this.addTodo}/>        
                 <Todos todos={this.state.todos} markComplete={this.markComplete} delTodo={this.delTodo}/>
               </React.Fragment>
             )} />
-            <Route path="/about" component={About} />
+            <Route path='https://dnorkett.github.io/react-todoList-with-API/about' component={About} />
           </div>
         </div>
       </Router>
