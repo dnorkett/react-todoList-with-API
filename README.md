@@ -14,5 +14,7 @@ To get the frontend running locally:
 
 
  ## Functionality Overview
-
+To add Todos, type a new item in the 'Add Todo...' input box and hit enter / click submit.
+To mark a Todo as complete, click on the checkbox to the left of the Todo item.
+To delete a Todo, click on the red 'x' to the right of the Todo item.
  
